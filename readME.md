@@ -5,8 +5,8 @@ This repository consists of tasks given in laboratory 1. So far I only did the c
 ## Compulsory
 Tasks:
 - :heavy_check_mark: Display on the screen the message "Hello World!". Run the application. If it works, go to step 2 :)
-- :white_check_mark: Define an array of strings languages, containing {"C", "C++", "C#", "Python", "Go", "Rust", "JavaScript", "PHP", "Swift", "Java"}
-- :white_check_mark: Generate a random integer n: int n = (int) (Math.random() * 1_000_000);
+- :heavy_check_mark: Define an array of strings languages, containing {"C", "C++", "C#", "Python", "Go", "Rust", "JavaScript", "PHP", "Swift", "Java"}
+- :heavy_check_mark: Generate a random integer n: int n = (int) (Math.random() * 1_000_000);
 - :heavy_check_mark: Compute the result obtained after performing the following calculations:
 ```
 multiply n by 3;
