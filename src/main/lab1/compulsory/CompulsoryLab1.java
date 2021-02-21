@@ -1,6 +1,6 @@
 package main.lab1.compulsory;
 
-public class Compulsory {
+public class CompulsoryLab1 {
 
     static int declare() {
         int binaryNumber = 0b10101;
