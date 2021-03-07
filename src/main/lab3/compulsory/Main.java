@@ -39,5 +39,7 @@ public class Main {
         c.addLocation(v4);
         c.addLocation(v5);
         c.addLocation(v6);
+
+        System.out.print(c);
     }
 }

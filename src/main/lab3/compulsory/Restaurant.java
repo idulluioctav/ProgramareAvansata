@@ -44,4 +44,13 @@ public class Restaurant extends Location implements Classifiable, Visitable {
     public void setRanking(int ranking) {
         this.ranking = ranking;
     }
+
+    @Override
+    public String toString() {
+        return "Restaurant{" +
+                "openingTime=" + openingTime +
+                ", closingTime=" + closingTime +
+                ", ranking=" + ranking +
+                '}';
+    }
 }

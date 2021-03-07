@@ -33,4 +33,11 @@ public class Church extends Location implements Visitable {
         this.closingTime = closingTime;
     }
 
+    @Override
+    public String toString() {
+        return "Church{" +
+                "openingTime=" + openingTime +
+                ", closingTime=" + closingTime +
+                '}';
+    }
 }

@@ -44,4 +44,13 @@ public class Museum extends Location implements Visitable, Payable {
     public void setTicketPrice(double ticketPrice) {
         this.ticketPrice = ticketPrice;
     }
+
+    @Override
+    public String toString() {
+        return "Museum{" +
+                "openingTime=" + openingTime +
+                ", closingTime=" + closingTime +
+                ", ticketPrice=" + ticketPrice +
+                '}';
+    }
 }

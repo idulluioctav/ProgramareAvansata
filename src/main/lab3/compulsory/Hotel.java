@@ -55,4 +55,14 @@ public class Hotel extends Location implements Classifiable, Payable, Visitable 
     public void setTicketPrice(double ticketPrice) {
         this.ticketPrice = ticketPrice;
     }
+
+    @Override
+    public String toString() {
+        return "Hotel{" +
+                "ranking=" + ranking +
+                ", openingTime=" + openingTime +
+                ", closingTime=" + closingTime +
+                ", ticketPrice=" + ticketPrice +
+                '}';
+    }
 }
