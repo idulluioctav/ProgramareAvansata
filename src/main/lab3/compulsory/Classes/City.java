@@ -1,4 +1,4 @@
-package main.lab3.compulsory;
+package main.lab3.compulsory.Classes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,9 @@ import java.util.List;
 public class City {
     private List<Location> nodes = new ArrayList<>();
 
-    public City(){
+    public City() {
     }
+
     public List<Location> getNodes() {
         return nodes;
     }
@@ -26,6 +27,6 @@ public class City {
 
     @Override
     public String toString() {
-        return "City{" + "nodes=" + nodes +'}';
+        return "City{" + "nodes=" + nodes + '}';
     }
 }

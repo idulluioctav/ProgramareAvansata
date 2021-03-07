@@ -1,4 +1,4 @@
-package main.lab3.compulsory;
+package main.lab3.compulsory.Classes;
 
 import java.util.HashMap;
 import java.util.Map;

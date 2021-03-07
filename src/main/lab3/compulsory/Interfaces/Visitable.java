@@ -1,4 +1,4 @@
-package main.lab3.compulsory;
+package main.lab3.compulsory.Interfaces;
 
 import java.time.LocalTime;
 

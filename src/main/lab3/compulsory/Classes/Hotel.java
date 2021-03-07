@@ -1,21 +1,35 @@
-package main.lab3.compulsory;
+package main.lab3.compulsory.Classes;
+
+import main.lab3.compulsory.Interfaces.Classifiable;
+import main.lab3.compulsory.Interfaces.Payable;
+import main.lab3.compulsory.Interfaces.Visitable;
 
 import java.time.LocalTime;
-import java.util.Map;
 
-public class Museum extends Location implements Visitable, Payable {
+public class Hotel extends Location implements Classifiable, Payable, Visitable {
 
+    private int ranking;
     private LocalTime openingTime, closingTime;
     private double ticketPrice;
 
-    public Museum(){
+    public Hotel(){
 
     }
 
-    public Museum(LocalTime openingTime, LocalTime closingTime, double ticketPrice) {
+    public Hotel(int ranking, LocalTime openingTime, LocalTime closingTime, double ticketPrice) {
+        this.ranking = ranking;
         this.openingTime = openingTime;
         this.closingTime = closingTime;
         this.ticketPrice = ticketPrice;
+    }
+
+    @Override
+    public int getRanking() {
+        return ranking;
+    }
+
+    public void setRanking(int ranking) {
+        this.ranking = ranking;
     }
 
     @Override
@@ -47,8 +61,9 @@ public class Museum extends Location implements Visitable, Payable {
 
     @Override
     public String toString() {
-        return "Museum{" +
-                "openingTime=" + openingTime +
+        return "Hotel{" +
+                "ranking=" + ranking +
+                ", openingTime=" + openingTime +
                 ", closingTime=" + closingTime +
                 ", ticketPrice=" + ticketPrice +
                 '}';

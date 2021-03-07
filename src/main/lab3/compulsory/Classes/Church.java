@@ -1,21 +1,19 @@
-package main.lab3.compulsory;
+package main.lab3.compulsory.Classes;
+
+import main.lab3.compulsory.Interfaces.Visitable;
 
 import java.time.LocalTime;
-import java.util.Map;
 
-public class Restaurant extends Location implements Classifiable, Visitable {
-
+public class Church extends Location implements Visitable {
     private LocalTime openingTime, closingTime;
-    private int ranking;
 
-    public Restaurant(){
+    public Church(){
 
     }
 
-    public Restaurant(LocalTime openingTime, LocalTime closingTime, int ranking) {
+    public Church(LocalTime openingTime, LocalTime closingTime) {
         this.openingTime = openingTime;
         this.closingTime = closingTime;
-        this.ranking = ranking;
     }
 
     @Override
@@ -37,20 +35,10 @@ public class Restaurant extends Location implements Classifiable, Visitable {
     }
 
     @Override
-    public int getRanking() {
-        return ranking;
-    }
-
-    public void setRanking(int ranking) {
-        this.ranking = ranking;
-    }
-
-    @Override
     public String toString() {
-        return "Restaurant{" +
+        return "Church{" +
                 "openingTime=" + openingTime +
                 ", closingTime=" + closingTime +
-                ", ranking=" + ranking +
                 '}';
     }
 }
