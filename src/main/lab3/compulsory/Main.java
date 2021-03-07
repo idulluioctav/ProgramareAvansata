@@ -3,6 +3,9 @@ package main.lab3.compulsory;
 import java.time.LocalTime;
 
 public class Main {
+    /**
+     * Instantierea obiectelor si adaugarea lor in obiectul City
+     * */
     public static void main(String[] args) {
         City c = new City();
 
