@@ -30,5 +30,11 @@ public class Main {
         v6.setClosingTime(LocalTime.parse("23:00"));
         v6.setRanking(2);
 
+        c.addLocation(v1);
+        c.addLocation(v2);
+        c.addLocation(v3);
+        c.addLocation(v4);
+        c.addLocation(v5);
+        c.addLocation(v6);
     }
 }
