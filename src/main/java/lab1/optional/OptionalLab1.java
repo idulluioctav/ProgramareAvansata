@@ -1,4 +1,4 @@
-package main.lab1.optional;
+package lab1.optional;
 
 import java.util.LinkedList;
 import java.util.Queue;

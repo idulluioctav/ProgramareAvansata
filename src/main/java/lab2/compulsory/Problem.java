@@ -1,4 +1,4 @@
-package main.lab2.compulsory;
+package lab2.compulsory;
 
 import java.util.Arrays;
 

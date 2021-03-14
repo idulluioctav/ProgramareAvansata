@@ -1,23 +1,19 @@
-package main.lab3.compulsory.Classes;
+package lab3.compulsory.Classes;
 
-import main.lab3.compulsory.Interfaces.Payable;
-import main.lab3.compulsory.Interfaces.Visitable;
+import lab3.compulsory.Interfaces.Visitable;
 
 import java.time.LocalTime;
 
-public class Museum extends Location implements Visitable, Payable {
-
+public class Church extends Location implements Visitable {
     private LocalTime openingTime, closingTime;
-    private double ticketPrice;
 
-    public Museum(){
+    public Church(){
 
     }
 
-    public Museum(LocalTime openingTime, LocalTime closingTime, double ticketPrice) {
+    public Church(LocalTime openingTime, LocalTime closingTime) {
         this.openingTime = openingTime;
         this.closingTime = closingTime;
-        this.ticketPrice = ticketPrice;
     }
 
     @Override
@@ -39,20 +35,10 @@ public class Museum extends Location implements Visitable, Payable {
     }
 
     @Override
-    public double getTicketPrice() {
-        return ticketPrice;
-    }
-
-    public void setTicketPrice(double ticketPrice) {
-        this.ticketPrice = ticketPrice;
-    }
-
-    @Override
     public String toString() {
-        return "Museum{" +
+        return "Church{" +
                 "openingTime=" + openingTime +
                 ", closingTime=" + closingTime +
-                ", ticketPrice=" + ticketPrice +
                 '}';
     }
 }

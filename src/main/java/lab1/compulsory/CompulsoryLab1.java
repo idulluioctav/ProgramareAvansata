@@ -1,4 +1,4 @@
-package main.lab1.compulsory;
+package lab1.compulsory;
 
 public class CompulsoryLab1 {
     /**

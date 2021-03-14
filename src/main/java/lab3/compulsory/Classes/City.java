@@ -1,4 +1,4 @@
-package main.lab3.compulsory.Classes;
+package lab3.compulsory.Classes;
 
 import java.util.ArrayList;
 import java.util.List;

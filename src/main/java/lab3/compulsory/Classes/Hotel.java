@@ -1,8 +1,8 @@
-package main.lab3.compulsory.Classes;
+package lab3.compulsory.Classes;
 
-import main.lab3.compulsory.Interfaces.Classifiable;
-import main.lab3.compulsory.Interfaces.Payable;
-import main.lab3.compulsory.Interfaces.Visitable;
+import lab3.compulsory.Interfaces.Classifiable;
+import lab3.compulsory.Interfaces.Payable;
+import lab3.compulsory.Interfaces.Visitable;
 
 import java.time.LocalTime;
 
