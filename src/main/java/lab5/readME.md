@@ -1,4 +1,4 @@
-#Lab 5
+# Lab 5
 
 **Media Catalog**
 
@@ -8,7 +8,7 @@ An entry in this catalog might be a song, a movie, a book, an image or any item 
 
 The main specifications of the application are: 
 
-##Compulsory
+## Compulsory
 
 - Create an object-oriented model of the problem. You should have at least the following classes: Catalog and two item classes at your choice. Consider using an interface or an abstract class in order to describe the items in a catalog. 
 
@@ -20,7 +20,7 @@ The main specifications of the application are:
     - load: loads the catalog from an external file.
 - The application will signal invalid data (year, path, etc.) using a custom exception. 
 
-##Usage
+## Usage
 
 Run the Main class for the compulsory part
 
